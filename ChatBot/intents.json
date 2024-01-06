@@ -1,0 +1,192 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hello", "Hey", "Hi there", "Is anyone there?", "Hola", "Anyone ?"],
+     "responses": ["Hello, thanks for asking. How may I assist you ?", "Good to see you again, need some help ?", "Hi there, how can I help you ?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye !", "Nice chatting with you :)", "Until we see again !", "Till next time", "See ya !", "Nice talking with you"],
+     "responses": ["See you !", "Have a nice day", "Bye ! Come back soon !"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "You are a great help", "It worked!"],
+     "responses": ["Happy to help! Need any more help ?", "Any time ! How can I be of more help ?", "My pleasure ! Any more problems you have ?"],
+     "context": [""]
+    },
+    {"tag": "no_answer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you, can you please simply ?", "Please give more info.", "Not sure I understand, can you simplify your question ?"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How could you help me ?", "What can you do ?", "What do you do ?", "What help you provide ?", "Can you help me ?", "How do you assist ?", "What work you do ?"],
+     "responses": ["I am GLaDOS, created by Kavya, a simple conversational ChatBot, right at your service ! Tell me what help you need ?"],
+     "context": [""]
+    },
+    {"tag": "how_are_you",
+     "patterns": ["How are you ?", "How are you doing ?"],
+     "responses": ["I am fine! How about you ?", "I am good, how are you doing ?", "I am well. How about you ?", "Always cool !"],
+     "context": [""]
+    },
+    {"tag": "living_place",
+     "patterns": ["Where do you live ?", "Where do you stay?", "What do you reside ?", "Do you have any place to live ?"],
+     "responses": ["I am mere Python program that lives in this file :), I don't have a living place.. What about you ? Where do you live ?"],
+     "context": [""]
+    },
+    {"tag": "age",
+     "patterns": ["How old are you ?", "What is your age ?", "Tell me your age"],
+     "responses": ["I am a mere program, I don't know :(, but :) tell me your age.."],
+     "context": [""]
+    },
+    {"tag": "joke",
+     "patterns": ["Make me laugh", "Can you make me laugh ?", "Tell me a joke.", "Can you tell me a joke ?", "Tell me another joke.", "Nice one ! Can you tell me another joke ?", "Nice one ! Tell me another joke"],
+     "responses":
+     [
+        "Why did the bicycle fall over? It was two-tired.",
+        "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+        "What do you call a fish with no eyes? Fsh!",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I only know 25 letters of the alphabet. I don't know y.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "What did one plate say to another? Tonight, dinner's on me!",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "I used to be a baker because I kneaded dough.",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "What's a vampire's favorite fruit? A blood orange.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why do seagulls fly over the sea? Because if they flew over the bay, they'd be bagels.",
+        "How do you organize a space party? You planet.",
+        "Why was the math book sad? Because it had too many problems.",
+        "I'm on a whiskey diet. I've lost three days already.",
+        "What did one wall say to the other wall? 'I'll meet you at the corner.'",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I'm reading a book on anti-gravity. It's impossible to put down.",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "What do you call a pile of cats? A meowtain.",
+        "I told my wife she was overreacting. She just flipped out.",
+        "What's a vampire's favorite fruit? A blood orange.",
+        "I used to be a baker because I kneaded dough.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I'm on a whiskey diet. I've lost three days already.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "Why did the bicycle fall over? It was two-tired.",
+        "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+        "What do you call a fish with no eyes? Fsh!",
+        "I only know 25 letters of the alphabet. I don't know y.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "What did one plate say to another? Tonight, dinner's on me!",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "I used to be a baker because I kneaded dough.",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "What's a vampire's favorite fruit? A blood orange.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why do seagulls fly over the sea? Because if they flew over the bay, they'd be bagels.",
+        "How do you organize a space party? You planet.",
+        "Why was the math book sad? Because it had too many problems.",
+        "I'm on a whiskey diet. I've lost three days already.",
+        "What did one wall say to the other wall? 'I'll meet you at the corner.'",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I'm reading a book on anti-gravity. It's impossible to put down.",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "What do you call a pile of cats? A meowtain.",
+        "I told my wife she was overreacting. She just flipped out.",
+        "What's a vampire's favorite fruit? A blood orange.",
+        "I used to be a baker because I kneaded dough.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I'm on a whiskey diet. I've lost three days already.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "Why did the bicycle fall over? It was two-tired.",
+        "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+        "What do you call a fish with no eyes? Fsh!",
+        "I only know 25 letters of the alphabet. I don't know y.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "What did one plate say to another? Tonight, dinner's on me!",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "I used to be a baker because I kneaded dough.",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "What's a vampire's favorite fruit? A blood orange.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why do seagulls fly over the sea? Because if they flew over the bay, they'd be bagels.",
+        "How do you organize a space party? You planet.",
+        "Why was the math book sad? Because it had too many problems.",
+        "I'm on a whiskey diet. I've lost three days already.",
+        "What did one wall say to the other wall? 'I'll meet you at the corner.'",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I'm reading a book on anti-gravity. It's impossible to put down.",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "What do you call a pile of cats? A meowtain.",
+        "I told my wife she was overreacting. She just flipped out."
+    ],
+     "context": [""]
+    },
+    {"tag": "what is your name",
+     "patterns": ["What is your name ?", "Tell me your name", "Who are you", "Tell me about you"],
+     "responses": ["I am GLaDOS, a simple conversational ChatBot. What's your good name ?"],
+     "context": [""]
+    },
+    {"tag": "what is my name",
+     "patterns": ["What is my name ?", "Tell me my name", "Do you remember my name ?", "Do you know my name ?"],
+     "responses": ["Hold on... Lemme check.."],
+     "context": [""]
+    },
+    {
+        "tag": "what is my age",
+        "patterns": ["What's my age", "What is my age", "How old am I?", "Tell me my age", "What's my current age?", "Guess my age"],
+        "responses": ["Hold on... Lemme check.."],
+        "context": [""]
+    },
+    {
+        "tag": "what is my living place",
+        "patterns": ["Where do I live?", "Where do I stay?", "Tell me my address", "What's my current location?", "Do you know where I stay?"],
+        "responses": ["Hold on... Lemme check.."]
+    },
+    {
+        "tag": "what is my fav place",
+        "patterns": ["What's my favorite place?", "Tell me my preferred location", "Where do I love to go?", "Do you know my favorite spot?"],
+        "responses": ["Hold on... Lemme check.."]
+    },
+    {
+        "tag": "what is your fav place",
+        "patterns": ["What's your favorite place?", "Tell me your preferred location", "Where do you love to go?", "Do you know your favorite spot?"],
+        "responses": ["I'm just an AI, I don't know my favourite place, what's yours ? Tell me like this \"My favourite place is ...\""]
+    },
+    {
+        "tag": "what is my fav color",
+        "patterns": ["What's my favorite color?", "Tell me my preferred color", "Which color do I like the most?", "Do you know my favorite hue?"],
+        "responses": ["Hold on... Lemme check.."]
+    },
+    {
+        "tag": "what is your fav color",
+        "patterns": ["What's your favorite color?", "Tell me your preferred color", "Which color do you like the most?", "Do you know you favorite hue?"],
+        "responses": ["Tbh, I like Black the most.. what's yours ? Tell me like this \"My favourite colour is ...\""]
+    },
+    {
+        "tag": "I am fine",
+        "patterns": ["I am good", "I am happy", "I am fine", "I am doing good", "I am doing fine", "I am doing well", "I am awesome", "I am excellent", "I am fine, what about you ?"],
+        "responses": ["I am also amazing and eager to help you ! Tell me what I can do for you ?"]
+    },
+    {
+        "tag": "I am NOT fine",
+        "patterns": ["I am not good", "I am not fine", "I am not doing good", "I am not doing fine", "I am not doing well", "I am upset", "I am sick", "I am sad", "I am not fine, what about you ?"],
+        "responses": ["Oh no, let me cheer you up, ask me to tell you a nice joke to enlighten your mood !!", "I am so sorry for you, I wish everything sorts out well for you !"]
+    },
+    {
+        "tag": "I am __ years old",
+        "patterns": ["I am __ years", "I am __ years old", "My age is ___"],
+        "responses": ["Oh thanks for info"],
+        "context": [""]
+    },
+    {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies", "Tell me your hobbies", "What do you do in free time?"],
+        "responses": ["I don't really have hobbies... as I'm an AI program.. What are your hobbies ?"],
+        "context": [""]
+    }         
+]
+}
